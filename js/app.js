@@ -48,7 +48,5 @@ if(asking ==='23') {
 
 
 
-
-
 let welcoming = confirm('Welcome to my page ' + Name )
-console.log(welcoming)
+//console.log(welcoming)
