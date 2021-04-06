@@ -1,8 +1,23 @@
 h1{
-    background-color: #dbf6e9;
+    background-color: #493323;
+    border-color: #ffffff;
 }
 
-#about{
-background-color: #9ddfd3;
 
+.first{
+    background-color: #91684a;
+    border-style: inset;
+    border-width: thick
 }
+ 
+
+#simply{
+    background-color: #91684a;
+    border-style: inset;
+    border-width: thick
+ }
+
+
+ #two{
+     background-color: #91684a ;
+ }
