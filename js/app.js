@@ -2,12 +2,15 @@
 'use strict';
 
 let score = 0;
-let Name = prompt('what\'s your name?');
+let Name
+function qus1(){
+Name = prompt('what\'s your name?');
 alert('Hi mr/s ' + Name);
-
-let userName = confirm('Are you sure do you want to enter?');
-console.log(userName)
-
+}
+qus1();
+// // let userName = confirm('Are you sure do you want to enter?');
+// // console.log(userName)
+function qus2(){
 let hunger = prompt('Do You think i\'m hangry ?', 'yes/no ');
 
 console.log(hunger)
@@ -25,8 +28,9 @@ if (hunger === 'yes' || hunger === 'y') {
 
     alert('please select again');
 }
-
-
+}
+qus2();
+function qus3(){
 let choiceing = confirm('do you think i like sea food?')
 
 if (choiceing) {
@@ -36,7 +40,9 @@ if (choiceing) {
 } else {
     alert('wrong ,  actually i\'m!')
 }
-
+}
+qus3();
+function qus4(){
 let junkFood = confirm('Do think I like Junk food?')
 // console.log(junkFood);
 if (junkFood === true) {
@@ -45,34 +51,41 @@ if (junkFood === true) {
 
 } else {
     alert('no, i do !')
+ }
 }
-
-
+qus4();
+let gussing=''
+function qus5(){
 for (let i = 1; i < 5; i++) {
 
-    let gussing = prompt('guss my age between 20/25?');
-
-    if (gussing == '23') {
+    gussing = prompt('guss my age between 20/25?');
+    gussing=parseInt(gussing)
+    if (gussing == 23) {
 
         alert('right');
         score++;
         break;
 
     }
-    else if (gussing > '23') {
+    else if (gussing > 23) {
 
         alert('too high');
     }
 
 
-    else if (gussing < '23') {
+    else if (gussing < 23) {
         alert('too low');
     }
     else {
         alert('welcome')
     }
 }
-alert('my age 23!')
+}
+qus5();
+if(gussing!==23){
+    alert('my age 23!')
+}
+
 
 
 
@@ -97,8 +110,8 @@ alert('my age 23!')
 // alert('correct anwser is 1997')
 
 
-
- let myFavfood = ['shawrma ', 'mansf', 'fahita', 'mushroom','checkin','grill','saj'];
+function qus6(){
+let myFavfood = ['shawarma ', 'mansaf', 'fahita', 'mushroom','checkin','grill','saj'];
 let favFoood = null;
 
  for (let j=0 ;j<6 ;j++){
@@ -117,9 +130,8 @@ if(favFoood === myFavfood[i]){
 }
 
 }
-
-
-
+}
+ qus6();
 let welcoming = confirm('Welcome to page owner ' + Name)
 console.log(welcoming)
 
