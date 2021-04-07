@@ -1,78 +1,78 @@
 
 'use strict';
 
-// let score = 0;
-// let Name = prompt('what\'s your name?');
-// alert('Hi mr/s ' + Name);
+let score = 0;
+let Name = prompt('what\'s your name?');
+alert('Hi mr/s ' + Name);
 
-// let userName = confirm('Are you sure do you want to enter?');
-// console.log(userName)
+let userName = confirm('Are you sure do you want to enter?');
+console.log(userName)
 
-// let hunger = prompt('Do You think i\'m hangry ?', 'yes/no ');
+let hunger = prompt('Do You think i\'m hangry ?', 'yes/no ');
 
-// console.log(hunger)
-// hunger = hunger.toLowerCase();
-// console.log(hunger)
+console.log(hunger)
+hunger = hunger.toLowerCase();
+console.log(hunger)
 
-// if (hunger === 'yes' || hunger === 'y') {
-//     alert('You\'r right ' + Name);
-//     score++;
-// } else if (hunger === 'no' || hunger === 'n') {
-//     alert(' no, i\'m always hungry lol ')
-//     console.log(hunger);
+if (hunger === 'yes' || hunger === 'y') {
+    alert('You\'r right ' + Name);
+    score++;
+} else if (hunger === 'no' || hunger === 'n') {
+    alert(' no, i\'m always hungry lol ')
+    console.log(hunger);
 
-// } else {
+} else {
 
-//     alert('please select again');
-// }
-
-
-// let choiceing = confirm('do you think i like sea food?')
-
-// if (choiceing) {
-//     alert('yeah i\'m ')
-//     score++;
-
-// } else {
-//     alert('wrong ,  actually i\'m!')
-// }
-
-// let junkFood = confirm('Do think I like Junk food?')
-// // console.log(junkFood);
-// if (junkFood === true) {
-//     alert('Right hahah ')
-//     score++;
-
-// } else {
-//     alert('no, i do !')
-// }
+    alert('please select again');
+}
 
 
-// for (let i = 1; i < 5; i++) {
+let choiceing = confirm('do you think i like sea food?')
 
-//     let gussing = prompt('guss my age between 20/25?');
+if (choiceing) {
+    alert('yeah i\'m ')
+    score++;
 
-//     if (gussing == '23') {
+} else {
+    alert('wrong ,  actually i\'m!')
+}
 
-//         alert('right');
-//         score++;
-//         break;
+let junkFood = confirm('Do think I like Junk food?')
+// console.log(junkFood);
+if (junkFood === true) {
+    alert('Right hahah ')
+    score++;
 
-//     }
-//     else if (gussing > '23') {
-
-//         alert('too high');
-//     }
+} else {
+    alert('no, i do !')
+}
 
 
-//     else if (gussing < '23') {
-//         alert('too low');
-//     }
-//     else {
-//         alert('welcome')
-//     }
-// }
-// alert('my age 23!')
+for (let i = 1; i < 5; i++) {
+
+    let gussing = prompt('guss my age between 20/25?');
+
+    if (gussing == '23') {
+
+        alert('right');
+        score++;
+        break;
+
+    }
+    else if (gussing > '23') {
+
+        alert('too high');
+    }
+
+
+    else if (gussing < '23') {
+        alert('too low');
+    }
+    else {
+        alert('welcome')
+    }
+}
+alert('my age 23!')
 
 
 
@@ -118,14 +118,6 @@ if(favFoood === myFavfood[i]){
 
 }
 
-//     if (favFoood === food[x]) {
-//         alert('you\'r right')
-//         break;
-
-//     }
-
-
-// }
 
 
 let welcoming = confirm('Welcome to page owner ' + Name)
