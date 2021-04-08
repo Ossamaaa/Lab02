@@ -1,15 +1,27 @@
 h1{
-    background-color: #493323;
+    background-color: #222831;
     border-color: #ffffff;
+    
 }
 
+body{
+    background: #40394a;
 
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 56%;
+  }
 .first{
     background-color: #91684a;
     border-style: inset;
     border-width: thick
 }
  
+
 
 #simply{
     background-color: #91684a;
@@ -19,5 +31,5 @@ h1{
 
 
  #two{
-     background-color: #91684a ;
+     background-color: #536162 ;
  }
