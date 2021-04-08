@@ -13,12 +13,16 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 56%;
+    width: 55%;
   }
 .first{
+  margin: 30px;
+  padding : 20px;
+  border: #263244;
     background-color: #91684a;
     border-style: inset;
     border-width: thick
+
 }
  
 
@@ -31,5 +35,5 @@ body{
 
 
  #two{
-     background-color: #536162 ;
+     background-color: #222831 ;
  }
